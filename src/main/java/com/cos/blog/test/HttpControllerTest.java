@@ -1,5 +1,5 @@
 package com.cos.blog.test;
-// port 청소 netstat -a -n -o , taskkill /f /pid 7892(Process ID)
+// port 청소 netstat -a -n -o  or -ano, taskkill /f /pid 8080(Process ID)
 
 import org.springframework.core.type.classreading.MethodMetadataReadingVisitor;
 import org.springframework.web.bind.annotation.DeleteMapping;

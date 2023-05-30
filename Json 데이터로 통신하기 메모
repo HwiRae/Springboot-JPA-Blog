@@ -1,0 +1,18 @@
+1. Get 요청 ( select할때 사용 )
+http://localhos:8000/blog/user?username=ssar
+특징 : body로 데이터를 담아 보내지 않음.
+
+2. Post(Insert), Put(Update), Delete 요청 (데이터를 변경)
+- 데이터를 담아보내야 할 것이 많음.
+- username, password, email, address, createDate, gender ...
+- form 태그 method='Post'
+- from 태그 -> get요청, post요청밖에 못함 ( key = value )형태로 날라감
+- 따라서 자바스크립트로 요청을 해야함
+
+통일 : 자바스크립트로 ajax요청 + 데이터는 json으로 통일!! - 사용O
+form:form 태그 -> post요청, put요청, delete요청, get요청 가능 - 사용X
+
+3. 오브젝트로 데이터 받기
+post방식의 key=value ( x-www.form-urlencoded )방식
+username=ssar
+password=1234
